@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV_Nguyen_Tan_Vu_Data_Scientist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Thanh nút bấm in / xuất PDF -->
+    <div class="action-bar no-print">
+        <button onclick="window.print()">🖨️ In / Xuất file PDF</button>
+    </div>
+
+    <!-- Khung chứa CV A4 -->
+    <div class="cv-container">
+        
+        <!-- ================= CỘT TRÁI (SIDEBAR - 1/3) ================= -->
+        <aside class="sidebar">
+            <!-- Ảnh đại diện -->
+            <div class="avatar-container">
+                <!-- Thay link ảnh cá nhân của bạn vào src bên dưới -->
+                <img src="imageCV.png" alt="Nguyễn Tấn Vũ" class="avatar">
+            </div>
+
+            <!-- Tên & Chức danh -->
+            <div class="profile-title">
+                <h1>NGUYỄN TẤN VŨ</h1>
+                <h2>Data Scientist</h2>
+            </div>
+
+            <!-- Thông tin liên hệ -->
+            <div class="sidebar-section">
+                <h3 class="sidebar-heading">LIÊN HỆ</h3>
+                <ul class="contact-list">
+                    <li>📞 0869658326</li>
+                    <li>✉️ tanvuyka@gmail.com</li>
+                    <li>📍 TP. Hồ Chí Minh</li>
+                    <li>🌐 <a href="https://github.com/TanVu2811" target="_blank">github.com/TanVu2811</a></li>
+                </ul>
+            </div>
+
+            <!-- Tóm tắt bản thân -->
+            <div class="sidebar-section">
+                <h3 class="sidebar-heading">GIỚI THIỆU</h3>
+                <p class="about-me">
+                    Sinh viên năm 4 chuyên ngành Khoa học Dữ liệu với nền tảng vững chắc về Machine Learning, Deep Learning, Big Data và xử lý dữ liệu lớn. Định hướng phát triển chuyên sâu trở thành một Data Scientist / Data Engineer có năng lực tối ưu hóa đường ống dữ liệu và triển khai mô hình AI hiệu quả.
+                </p>
+            </div>
+
+            <!-- Học vấn -->
+            <div class="sidebar-section">
+                <h3 class="sidebar-heading">HỌC VẤN</h3>
+                <div class="edu-item">
+                    <strong>ĐH Giao Thông Vận Tải TP.HCM</strong>
+                    <p class="edu-sub">Chuyên ngành: Khoa học Dữ liệu</p>
+                    <p class="edu-sub">2023 – Hiện tại (Năm 4)</p>
+                    <p class="edu-sub">GPA: 7.0 / 10</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ================= CỘT PHẢI (MAIN CONTENT - 2/3) ================= -->
+        <main class="main-content">
+            
+            <!-- Kỹ năng chuyên môn -->
+            <section class="main-section">
+                <h3 class="main-heading">KỸ NĂNG CHUYÊN MÔN</h3>
+                <div class="skills-group">
+                    <p><strong>Lập trình:</strong> Python, SQL, TypeScript</p>
+                    <p><strong>Big Data & Lakehouse:</strong> PySpark, Delta Lake, SparkSession</p>
+                    <p><strong>Database & Storage:</strong> MongoDB (NoSQL), PostgreSQL</p>
+                    <p><strong>AI & Machine Learning:</strong> Deep Learning, PyTorch, Hugging Face (BERT/DistilBERT), OpenCV</p>
+                    <p><strong>Web & Tools:</strong> React, Git, RESTful API, Docker, Hardhat</p>
+                </div>
+            </section>
+
+            <!-- Dự án tiêu biểu -->
+            <section class="main-section">
+                <h3 class="main-heading">DỰ ÁN TIÊU BIỂU</h3>
+
+                <!-- Dự án 1: Lakehouse -->
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="project-title">
+                            <a href="https://github.com/TanVu2811/lakehouse-pyspark-medallion" target="_blank" style="color: inherit; text-decoration: none;">
+                                Kiến trúc Data Lakehouse Medallion 🔗
+                            </a>
+                        </span>
+                        <span class="project-date">07/2026</span>
+                    </div>
+                    <p class="project-tech"><em>Công nghệ: PySpark, Delta Lake, SparkSession</em></p>
+                    <ul class="bullet-list">
+                        <li>Xây dựng đường ống xử lý dữ liệu tự động hóa theo mô hình 3 tầng (Bronze, Silver, Gold) giúp chuẩn hóa và nâng cao chất lượng dữ liệu.</li>
+                        <li>Sử dụng PySpark để xử lý song song khối lượng dữ liệu lớn, đảm bảo tính toàn vẹn dữ liệu với Delta Lake.</li>
+                    </ul>
+                </div>
+
+                <!-- Dự án 2: Smart Contract -->
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="project-title">
+                            <a href="https://github.com/TanVu2811/smart-contract-hardhat" target="_blank" style="color: inherit; text-decoration: none;">
+                                Smart Contract & DApp Development 🔗
+                            </a>
+                        </span>
+                        <span class="project-date">04/2026</span>
+                    </div>
+                    <p class="project-tech"><em>Công nghệ: Solidity, Hardhat, TypeScript, OpenZeppelin</em></p>
+                    <ul class="bullet-list">
+                        <li>Xây dựng và kiểm thử hợp đồng thông minh (Smart Contract) với môi trường Hardhat và thư viện bảo mật OpenZeppelin.</li>
+                        <li>Tích hợp ví MetaMask và triển khai luồng tương tác ứng dụng phi tập trung (DApp).</li>
+                    </ul>
+                </div>
+
+                <!-- Dự án 3: MongoDB Streaming -->
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="project-title">Hệ thống Streaming Dữ liệu Mạng Xã Hội</span>
+                        <span class="project-date">06/2026</span>
+                    </div>
+                    <p class="project-tech"><em>Công nghệ: MongoDB (NoSQL), Python, Streaming Simulation</em></p>
+                    <ul class="bullet-list">
+                        <li>Thiết kế cơ sở dữ liệu NoSQL trên MongoDB hỗ trợ nạp dữ liệu theo đợt (Batch Ingestion) và mô phỏng luồng dữ liệu thời gian thực.</li>
+                        <li>Đánh giá hiệu năng và tối ưu hóa câu truy vấn cho hệ thống phân tích nhật ký (Log Analytics).</li>
+                    </ul>
+                </div>
+
+                <!-- Dự án 4: BERT Fine-tuning -->
+                <div class="project-item">
+                    <div class="project-header">
+                        <span class="project-title">Fine-tuning Mô Hình BERT / DistilBERT</span>
+                        <span class="project-date">01/2026 – 02/2026</span>
+                    </div>
+                    <p class="project-tech"><em>Công nghệ: PySpark, Hugging Face, PyTorch</em></p>
+                    <ul class="bullet-list">
+                        <li>Sử dụng Hugging Face và PySpark để huấn luyện và fine-tune mô hình NLP (BERT, DistilBERT) trên bộ dữ liệu AG News.</li>
+                        <li>Tối ưu hóa độ chính xác bài toán phân loại tin tức đa lớp (Multi-class Classification).</li>
+                    </ul>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
